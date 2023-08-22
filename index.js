@@ -8,7 +8,7 @@ let server = http.createServer(
     
     if ( req.url === "/Dashboard" ) 
     {
-      string = "Welcome To Your Dashboard!";
+      string = "Welcome To Your Dashboard";
     } 
 
     res.writeHead( 200, { "Content-Type": "text/plain" } );
